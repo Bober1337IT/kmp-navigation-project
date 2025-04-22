@@ -1,4 +1,4 @@
-# Kotlin Multiplatform Argument Navigation Example 🚀
+# Kotlin Multiplatform Navigation Example 
 
 To jest przykład aplikacji stworzonej w Kotlin Multiplatform z użyciem **Jetpack Compose** oraz **Navigation Compose**, która pokazuje, jak przekazywać argumenty pomiędzy ekranami.
 
