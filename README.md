@@ -20,6 +20,8 @@ Ekran wyświetla powitanie z podanym imieniem oraz przycisk "Go Back!", który p
 
 ### Gradle
 
-libs.versions.toml - > navigationComposeVersion = "2.8.0-alpha10" ,  navigation-compose = { module = "org.jetbrains.androidx.navigation:navigation-compose", version.ref = "navigationComposeVersion" }
+libs.versions.toml - >  versions -> navigationComposeVersion = "2.8.0-alpha10"
+
+libs.versions.toml - > libraries -> navigation-compose = { module = "org.jetbrains.androidx.navigation:navigation-compose", version.ref = "navigationComposeVersion" }
 
 build.gradle.kts -> commonMain.dependencies -> implementation(libs.navigation.compose)
